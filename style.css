@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.logo img{
+    height: 50px;   
+    background-size: cover;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+
+}
+uL Li a{
+   text-decoration: none;
+   color: black ;
+}
+.gambar img{
+    width: 600px;
+
+}
+.container-1{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    background-image: linear-gradient(to bottom right,#2C9BF3,white);
+}
+.tulisan{
+    width: 500px;
+}
+.tulisan a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: tomato;
+    display: inline-block;
+    border-radius: 30px;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    padding: 30px 80px;
+
+}
+.card-1{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 20px 15px 15px rgba(0, 0, 0, 0.5);
+    padding: 40px 100px;
+    margin-top:-80px;  
+}
+.card-holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cards{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom, #2C9BF3,white);
+    border-radius: 30px;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 20px ;
+}
+.cards img{
+    width: 50px;
+    height: 50px;
+}
+.card-1 h1{
+    font-size: 40px;
+}
+.button{
+   padding: 10px;
+   margin-top: 70px;
+   background-color: white;
+   width: 190px;
+   border-radius: 10px; 
+   position: relative;
+   left: 550px;
+   justify-content: center;
+}
